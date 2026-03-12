@@ -1,0 +1,17 @@
+{
+  "name": "m-project",
+  "version": "1.0.0",
+  "description": "a backend made by Sounak Hazra",
+  "keywords": [
+    "javascript",
+    "backend",
+    "Sounak"
+  ],
+  "license": "ISC",
+  "author": "Sounak Hazra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,6 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
+// routes import
+import userRouter from "./routes/user.routes.js"
 
 const app = express();
 
@@ -14,9 +16,6 @@ app.use(express.urlencoded({extended: true, limit: "16kb"}))  // To handle url d
 app.use(express.static("public")) // "public" folder
 app.use(cookieParser())
 
-
-// routes import
-import userRouter from "./routes/user.routes.js"
 
 // routes declaration
 app.use("/api/v1/users", userRouter)
